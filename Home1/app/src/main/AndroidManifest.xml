@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dell.home1">
+
+    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/personal"
+        android:label="Personal Assistant"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".Splash">
+
+        </activity>
+        <activity
+            android:name=".MainActivity"
+
+            android:label="Personal Assistant">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".Register">
+            <intent-filter>
+                <action android:name="com.example.jas.home1.Register" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name="com.example.dell.home1.MyNewActivity"
+            android:label="Welcome to 'Personal Assistant'">
+            <intent-filter>
+                <action android:name="com.example.jas.home1.MyNewActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!--  <activity
+              android:name="in.anil.myproject.callblocker"
+              android:label="Call blocker'" >
+              <intent-filter>
+                  <action android:name="in.anil.myproject.callblocker" />
+
+                  <category android:name="android.intent.category.DEFAULT" />
+              </intent-filter>
+          </activity>-->
+        <activity
+            android:name="com.example.dell.home1.MyActivity"
+            android:label="Web Browser">
+            <intent-filter>
+                <action android:name="com.example.jas.home1.MyActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.dell.home1.videoActivity"
+            android:label="Play video">
+            <intent-filter>
+                <action android:name="com.example.jas.home1.videoActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.example.dell.home1.about"
+            android:label="About">
+            <intent-filter>
+                <action android:name="com.example.jas.home1.about" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.dell.home1.FBActivity"
+            android:label="Facebook">
+            <intent-filter>
+                <action android:name="com.example.jas.home1.FBActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.example.dell.home1.torch"
+            android:label="Flashlight">
+
+        </activity>
+    </application>
+
+
+</manifest>

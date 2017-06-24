@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Home1</string>
+    <string name="U">User Name</string>
+    <string name="P">Password</string>
+    <string name="C">Contact No.</string>
+    <string name="L">Login</string>
+    <string name="S">SignUp</string>
+    <string name="R">ReTypePassword</string>
+    <string name="E">E_mail_ID</string>
+    <string name="Rr">Register</string>
+    <string name="Cr">Clear</string>
+    <string name="Ce">Cancel</string>
+    <string name="F">Fill the enteries to create your a/c</string>
+    <string name="A">*All fields are must to be fill</string>
+</resources>
